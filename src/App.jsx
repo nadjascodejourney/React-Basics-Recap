@@ -5,6 +5,7 @@ import Props1 from "./components/Props1";
 import Props2 from "./components/Props2";
 import Emailinput from "./components/Emailinput";
 import FilteredSearch from "./components/FilteredSearch";
+import Counter from "./components/Counter";
 
 function App() {
   // Funktionalität
@@ -31,6 +32,9 @@ function App() {
       <br />
       <br />
       <FilteredSearch />
+      <br />
+      <br />
+      <Counter />
     </div>
   );
 }

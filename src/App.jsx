@@ -6,6 +6,7 @@ import Props2 from "./components/Props2";
 import Emailinput from "./components/Emailinput";
 import FilteredSearch from "./components/FilteredSearch";
 import Counter from "./components/Counter";
+import ToggleSwitchLightDarkMode from "./components/ToggleSwitchLightDarkMode";
 
 function App() {
   // Funktionalität
@@ -35,6 +36,9 @@ function App() {
       <br />
       <br />
       <Counter />
+      <br />
+      <br />
+      <ToggleSwitchLightDarkMode />
     </div>
   );
 }

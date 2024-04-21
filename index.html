@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Recap</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Unsere gesamte Anwendung wird mittels React in diese div hineingerendert. Durch die ID root, kann dieses div HTML Element in der Datei main.jsx für diese Zwecke ausgewählt werden -->
+    <script type="module" src="/src/main.jsx"></script>
+    <!-- hier wird das script verlinkt, welches ein Javascript Modul in eine Website einbindet. Das Attribut type="module" gibt an, dass der Inhalt des Tags als JS-Modul betrachtet werden soll. Module bieten die Möglichkeit, JS-Code in separate Dateien zu unterteilen. In diesem Fall handelt es sich um eine .jsx Datei, da wir mit React und der JSX Syntax arbeiten wollen, was dann in regulären JS Code kompiliert wird-->
+  </body>
+</html>
+
+<!-- Zusammengefasst lädt dieser Code ein JavaScript-Modul namens main.jsx aus dem Verzeichnis /src/ in die Webseite ein. Da es sich um ein Modul handelt, wird der Code in dieser Datei nur einmal ausgeführt, und die Variablen und Funktionen, die darin definiert sind, sind nicht im globalen Scope verfügbar, sondern nur innerhalb des Moduls selbst. -->
